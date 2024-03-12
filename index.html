@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="person-menu">
+        <img class="image-jeremy" src="images/image-jeremy.png" alt="images/image-jeremy.png">
+        <div class="title">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="duration">
+        <a id="daily-link" href="#">Daily</a>
+        <a id="weekly-link" href="#">Weekly</a>
+        <a id="monthly-link" href="#">Monthly</a>
+      </div>
+    </div>
+
+    <div class="work" id="work">
+      <div class="activity-container">
+        <div class="stats">
+          <p class="activity">Work</p>
+          <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+        </div>
+        <div class="flex-stats">
+          <h2 id="work-hours" class="hours">32hrs</h2>
+          <div class="previous">
+            <p class="previous-period-text">Yesterday -</p>
+            <p class="previous-hours" id="work-previous-hours">36hrs</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <div class="play" id="play">
+      <div class="activity-container">
+        <div class="stats">
+          <p class="activity">Play</p>
+          <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+        </div>
+        <div class="flex-stats">
+          <h2 id="play-hours" class="hours">10hrs</h2>
+          <div class="previous">
+            <p class="previous-period-text">Yesterday -</p>
+            <p class="previous-hours" id="play-previous-hours">8hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="study" id="study">
+      <div class="activity-container">
+        <div class="stats">
+          <p class="activity">Study</p>
+          <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+        </div>
+        <div class="flex-stats">
+          <h2 id="study-hours" class="hours">4hrs</h2>
+          <div class="previous">
+            <p class="previous-period-text">Yesterday -</p>
+            <p class="previous-hours" id="study-previous-hours">7hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise" id="exercise">
+      <div class="activity-container">
+        <div class="stats">
+          <p class="activity">Exercise</p>
+          <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+        </div>
+        <div class="flex-stats">
+          <h2 id="exercise-hours" class="hours">4hrs</h2>
+          <div class="previous">
+            <p class="previous-period-text">Yesterday -</p>
+            <p class="previous-hours" id="exercise-previous-hours">5hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social" id="social">
+      <div class="activity-container">
+        <div class="stats">
+          <p class="activity">Social</p>
+          <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+        </div>
+        <div class="flex-stats">
+          <h2 id="social-hours" class="hours">5hrs</h2>
+          <div class="previous">
+            <p class="previous-period-text">Yesterday -</p>
+            <p class="previous-hours" id="social-previous-hours">10hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="self-care" id="self-care">
+      <div class="activity-container">
+        <div class="stats">
+          <p class="activity">Self Care</p>
+          <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+        </div>
+        <div class="flex-stats">
+          <h2 id="self-care-hours" class="hours">2hrs</h2>
+          <div class="previous">
+            <p class="previous-period-text">Yesterday -</p>
+            <p class="previous-hours" id="self-care-previous-hours">2hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Léa CHIDAS</a>.
+  </div>
+</body>
+</html>
+    
