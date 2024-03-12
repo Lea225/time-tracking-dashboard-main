@@ -87,5 +87,5 @@ document.addEventListener('DOMContentLoaded', () => {
     monthlyLink.classList.add('active');
   });
 
-  updateStats('Daily'); // Set initial state to Daily
+  updateStats('Weekly'); // Set initial state to Daily
 });
